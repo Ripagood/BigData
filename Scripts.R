@@ -15,4 +15,7 @@ m1[99]
 
 setwd("/home/ventura/Downloads")
 datos = read.csv(file="cbp12co.txt",header=TRUE)
-datos[4]
+datos[[4]]
+
+con = url("http://www.google.com","r")
+x=readLines(con,10)
