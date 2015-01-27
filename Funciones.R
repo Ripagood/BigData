@@ -38,7 +38,7 @@ menoresA = function(a,b){
   datos = a <10
   hot1 = a[datos]
   datos = b<10
-  hot2 = a[datos]
+  hot2 = b[datos]
   hot3 = c(hot1,hot2)
   hot3
 }
